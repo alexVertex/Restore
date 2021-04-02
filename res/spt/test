@@ -1,0 +1,6 @@
+IF <= player2.health * player2.maxHealth 0.5
+SET player2.health player2.maxHealth
+ENDIF
+IF > player2.health player2.maxHealth
+SET player2.health player2.maxHealth
+ENDIF
